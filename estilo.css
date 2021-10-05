@@ -1,0 +1,46 @@
+/* se agrega color de fondo a la barra de menus */
+.menu {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* estilo de los textos del menu de la barra  */
+  .menu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* cambio de color del menu cuando se pasa el mause */
+  .menu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* cambio de color del menu home */
+  .menu a.activo {
+    background-color: gray;
+    color: white;
+  }
+  /* se alinea el texto y la imagen */
+  .contenido{
+      text-align: center;
+
+  }
+  /* se cambia el estilo de letra y el color del titulo */
+  #titulo{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: brown;
+  }
+
+  /*se le da margen al parrafo y se cambio el tamaño*/
+  #parrafo{
+      text-align: left;
+     font-size: 20px;
+     margin-left: 10%;
+     margin-right: 10%;
+  }
+  
